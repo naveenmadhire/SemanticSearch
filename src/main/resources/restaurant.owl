@@ -1,0 +1,1678 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://schema.org/Restaurant"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://schema.org/Restaurant">
+    <Prefix name="" IRI="https://schema.org/Restaurant#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="https://schema.org/"/>
+    <Prefix name="Restaurant" IRI="https://schema.org/Restaurant#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A restaurant ontology that describes local restaurants.</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/simply-thai-louisville"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/highland-morning-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/highland-morning-the-highlands-bardstown-rd"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Mexican"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/kashmir-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/north-end-cafe-louisville-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/mayan-cafe-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Pub_Fare"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#servesCuisine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/butchertown-grocery-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/simply-thai-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Sushi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/fuel-pizza-cafe-charlotte-6?osq=Fuel+Pizza+Cafe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:HighRatedRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/yama-asian-fusion-southpark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/the-flying-biscuit-cafe-collingwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/butchertown-grocery-downtown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duckworths"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Asian"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:url"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/brio-tuscan-grille-charlotte?osq=Brio+Tuscan+Grille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basil_Thai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/basil-fourth-ward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:address"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/heart-soy-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/cantina-1511-collingwood"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Location"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Latin_American_Or_Cuban"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/havana-rumba-express-tapas-bar-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/yama-asian-fusion-charlotte"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:HighPriceRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:LowPriceRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:LouisvilleArea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/mayan-cafe-louisville"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/blue-taj-ballantyne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/brio-barclay-downs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seafood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/irish-rover-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/fuel-pizza-collingwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/havana-rumba-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/el-camino-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-flying-biscuit-cafe-charlotte-2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:isCuisineOf"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:LocalBusiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/el-camino-louisville"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=""/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/south-21-drive-in-charlotte-2"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:MidPriceRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cantina1511"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-irish-rover-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brio"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Organization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/basil-thai-cuisine-charlotte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/good-food-on-montford-charlotte-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:CharlotteArea"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:AverageRatedRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/south-21-drive-in-plaza-midwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/duckworths-grill-taphouse-myers-park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/cantina-1511-charlotte-5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/duckworths-grill-and-taphouse-charlotte"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:LowRatedRestaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-blue-taj-charlotte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.yelp.com/biz/heart-and-soy-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="schema:openingHours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/north-end-cafe-the-highlands-bardstown-rd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pizza_Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/kashmir-indian-restaurant-louisville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="schema:Indian"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:AverageRatedRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasRating"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.1</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasRating"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:CharlotteArea"/>
+        <ObjectHasValue>
+            <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+            <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:HighPriceRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:HighRatedRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasRating"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:LouisvilleArea"/>
+        <ObjectHasValue>
+            <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+            <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:LowPriceRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:LowRatedRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasRating"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="schema:MidPriceRestaurant"/>
+        <ObjectIntersectionOf>
+            <Class IRI=""/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI=""/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+            <Class abbreviatedIRI="schema:Location"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI=""/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servesCuisine"/>
+            <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:AverageRatedRestaurant"/>
+        <Class IRI=""/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:CharlotteArea"/>
+        <Class abbreviatedIRI="schema:Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+        <Class abbreviatedIRI="schema:LocalBusiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:HighRatedRestaurant"/>
+        <Class IRI=""/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:LocalBusiness"/>
+        <Class abbreviatedIRI="schema:Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:Location"/>
+        <Class abbreviatedIRI="schema:Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:LouisvilleArea"/>
+        <Class abbreviatedIRI="schema:Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:LowPriceRestaurant"/>
+        <Class IRI=""/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:LowRatedRestaurant"/>
+        <Class IRI=""/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:MidPriceRestaurant"/>
+        <Class IRI=""/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=""/>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="schema:AverageRatedRestaurant"/>
+        <Class abbreviatedIRI="schema:HighRatedRestaurant"/>
+        <Class abbreviatedIRI="schema:LowRatedRestaurant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="schema:HighPriceRestaurant"/>
+        <Class abbreviatedIRI="schema:LowPriceRestaurant"/>
+        <Class abbreviatedIRI="schema:MidPriceRestaurant"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Asian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:Location"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Latin_American_Or_Cuban"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:Location"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Mexican"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Pub_Fare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Sushi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Brio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Cantina1511"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Duckworths"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual IRI="#Pizza_Italian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual IRI="#Seafood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#South21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <NamedIndividual IRI="#Thai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI=""/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/basil-thai-cuisine-charlotte"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/butchertown-grocery-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/cantina-1511-charlotte-5"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/duckworths-grill-and-taphouse-charlotte"/>
+        <NamedIndividual IRI="#Duckworths"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/el-camino-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/good-food-on-montford-charlotte-2"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/heart-and-soy-louisville"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/highland-morning-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/kashmir-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/mayan-cafe-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/mayan-cafe-louisville"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/mayan-cafe-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/north-end-cafe-louisville-2"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/simply-thai-louisville"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/south-21-drive-in-charlotte-2"/>
+        <NamedIndividual IRI="#South21"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-blue-taj-charlotte"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-flying-biscuit-cafe-charlotte-2"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/the-irish-rover-louisville"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/yama-asian-fusion-charlotte"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/brio-tuscan-grille-charlotte?osq=Brio+Tuscan+Grille"/>
+        <NamedIndividual IRI="#Brio"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="http://www.yelp.com/biz/fuel-pizza-cafe-charlotte-6?osq=Fuel+Pizza+Cafe"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/butchertown-grocery-downtown"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/el-camino-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <NamedIndividual IRI="https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/highland-morning-the-highlands-bardstown-rd"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/irish-rover-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/kashmir-indian-restaurant-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/north-end-cafe-the-highlands-bardstown-rd"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/basil-fourth-ward"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Brio"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/brio-barclay-downs"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/cantina-1511-collingwood"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Duckworths"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/duckworths-grill-taphouse-myers-park"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/the-flying-biscuit-cafe-collingwood"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/fuel-pizza-collingwood"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#South21"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/south-21-drive-in-plaza-midwood"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/blue-taj-ballantyne"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <NamedIndividual IRI="https://www.zomato.com/charlotte/yama-asian-fusion-southpark"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/heart-soy-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/simply-thai-louisville"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html"/>
+        <NamedIndividual IRI="https://www.zomato.com/louisville/havana-rumba-express-tapas-bar-louisville"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <NamedIndividual abbreviatedIRI="schema:Mexican"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <NamedIndividual abbreviatedIRI="schema:Latin_American_Or_Cuban"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <NamedIndividual abbreviatedIRI="schema:Breakfast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <NamedIndividual abbreviatedIRI="schema:Pub_Fare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <NamedIndividual abbreviatedIRI="schema:Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:Latin_American_Or_Cuban"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:Mexican"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <NamedIndividual abbreviatedIRI="schema:Asian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <NamedIndividual IRI="#Thai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Brio"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Brio"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Brio"/>
+        <NamedIndividual IRI="#Pizza_Italian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <NamedIndividual abbreviatedIRI="schema:Latin_American_Or_Cuban"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <NamedIndividual abbreviatedIRI="schema:Mexican"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <NamedIndividual abbreviatedIRI="schema:Pub_Fare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:Breakfast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <NamedIndividual IRI="#Pizza_Italian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <NamedIndividual IRI="#Seafood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#South21"/>
+        <NamedIndividual abbreviatedIRI="schema:American"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#South21"/>
+        <NamedIndividual abbreviatedIRI="schema:Pub_Fare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <NamedIndividual abbreviatedIRI="schema:Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <NamedIndividual abbreviatedIRI="schema:CharlotteArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <NamedIndividual abbreviatedIRI="schema:Asian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <NamedIndividual abbreviatedIRI="schema:Sushi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <NamedIndividual abbreviatedIRI="schema:Asian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <NamedIndividual abbreviatedIRI="schema:Vegan_or_Vegetarian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <NamedIndividual abbreviatedIRI="schema:LouisvilleArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <NamedIndividual abbreviatedIRI="schema:Sushi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <NamedIndividual IRI="#Thai"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1076 East Washington Street
+Louisville, KY 40206</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://butchertowngrocery.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:telephone"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">502.742.8315</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:Butchertown_Grocery"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://butchertowngrocery.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1314 Bardstown Road • Louisville, Kentucky 40204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://elfreakingcamino.com/menus/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:El_Camino"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://elfreakingcamino.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2210 Bardstown Road
+Louisville, KY 40205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://havanarumbaonline.com/web/index_zb.php?pg=Main%20Menu&amp;for=text&amp;user=HAVRUM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:telephone"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">502-749-4600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:Havana_Rumba"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://havanarumbaonline.com/web/index_zb.php?pg=Our%20Story&amp;for=text&amp;user=HAVRUM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1416 Bardstown Rd
+Louisville, KY 40204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.highlandmorning.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:Highland_Morning"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">www.highlandmorning.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2319 Frankfort Ave
+Louisville, KY 40206</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.theirishroverky.com/our-menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:Irish_Rover"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.theirishroverky.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1277 Bardstown Rd
+Louisville, KY 40204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.allmenus.com/ky/louisville/4344-kashmir/menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Kashmir_Indian"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://www.facebook.com/pages/Kashmir-Indian-Restaurant/104946859548552</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">813 E Market St
+Louisville, KY 40206</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://themayancafe.com/menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:Mayan_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://themayancafe.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2116 Bardstown Rd
+Louisville, KY 40205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.northendcafe.com/menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual abbreviatedIRI="schema:North_End_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.northendcafe.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">210 N Church Street, Charlotte, NC 28202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.eatatbasil.com/charlotte/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Basil_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.eatatbasil.com/charlotte/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Brio"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4720 Piedmont Row Drive, Charlotte, NC 28210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Brio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Brio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Brio"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://brioitalian.com/menu.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Brio"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://brioitalian.com/index.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4721 Park Road Suite B, Charlotte, NC 28209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://cantina15eleven.com/menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Cantina1511"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://cantina15eleven.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4435 Park Road, NC 28209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://duckworths.com/menu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Duckworths"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://duckworths.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4241 Park Road, Charlotte, NC 28209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.flyingbiscuit.com/food-menu/breakfast-all-day/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Flying_Biscuit_Cafe"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.flyingbiscuit.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Park Road Shopping Center, 4267 Park Road, Charlotte, NC 28209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.fuelpizza.com/menu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Fuel_Pizza"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.fuelpizza.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1701 Montford Dr, Charlotte, NC 28209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://goodfoodonmontford.com/food-wine/dinner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Good_Food_On_Montford"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://goodfoodonmontford.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#South21"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3101 E Independence Boulevard, NC 28205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#South21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#South21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#South21"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.south21jr.com/menu.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#South21"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.south21jr.com/index.html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ballantyne Village, 14815 Ballantyne Village Way Suite 140, Charlotte, NC 28277</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.thebluetaj.com/Menu.pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#The_Blue_Taj"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.thebluetaj.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">720 Governor Morrison Street Suite 130, Charlotte, NC 28211</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.yamaasianfusion.com/index.php/menu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="#Yama_Asian_Fusion"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.yamaasianfusion.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1216 Bardstown Road Louisville, KY 40204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.heartandsoy.net/heart-and-soy-menu.php</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.heartandsoy.net/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">323 Wallace Ave
+Louisville, KY 40207</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:menu"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://simplythaiky.com/?page_id=705</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:telephone"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">502-899-9670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="schema:url"/>
+        <NamedIndividual IRI="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">www.simplythaiky.com</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <ObjectProperty abbreviatedIRI="schema:isLocationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="schema:isCuisineOf"/>
+        <ObjectProperty IRI="#servesCuisine"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <Class abbreviatedIRI="schema:Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:isCuisineOf"/>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="schema:isLocationOf"/>
+        <Class abbreviatedIRI="schema:Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <Class abbreviatedIRI="schema:FoodEstablishment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:hasLocation"/>
+        <Class abbreviatedIRI="schema:Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:isCuisineOf"/>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="schema:isLocationOf"/>
+        <Class abbreviatedIRI="schema:Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#servesCuisine"/>
+        <Class IRI="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="schema:hasPriceRange"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="schema:hasRating"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:openingHours"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="schema:telephone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>schema:hasPriceRange</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yelp price rating values:
+1= under $10
+2= $11-$30
+3= $31-$60
+4= above $61</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>schema:hasRating</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">New data property that describes the rating of the restaurant.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->

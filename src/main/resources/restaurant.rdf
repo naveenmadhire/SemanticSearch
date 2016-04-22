@@ -1,0 +1,1297 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://schema.org/Restaurant#"
+     xml:base="https://schema.org/Restaurant"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:sioc="http://rdfs.org/sioc/ns#"
+     xmlns:schema="https://schema.org/"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:rela="http://purl.org/vocab/relationship/"
+     xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:ctag="http://commontag.org/ns#"
+     xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+     xmlns:om="http://www.ict-omelette.eu/schema.rdf#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+     xmlns:ns16="http://people.w3.org/simon/foaf#"
+     xmlns:ns17="http://qdos.com/people/tom.xrdf#"
+     xmlns:ns14="http://people.csail.mit.edu/lkagal/foaf#"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:ns15="http://people.csail.mit.edu/psz/foaf.rdf#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:status="http://purl.org/ontology/bibo/status/"
+     xmlns:ns18="http://research.microsoft.com/~henrikn/foaf.xml#"
+     xmlns:ns19="http://rit.mellon.org/Members/ihf/foaf.rdf#"
+     xmlns:swrlx="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#"
+     xmlns:sc="http://lab.gsi.dit.upm.es/scraping.rdf#"
+     xmlns:loc="http://www.daml.org/experiment/ontology/location-ont#"
+     xmlns:property="http://enipedia.tudelft.nl/wiki/Property:"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#"
+     xmlns:ns12="http://norman.walsh.name/knows/who#"
+     xmlns:ns13="http://people.apache.org/~oshani/foaf.rdf#"
+     xmlns:ns10="http://my.opera.com/howcome/xml/foaf#"
+     xmlns:ns11="http://myopenlink.net/dataspace/person/kidehen#"
+     xmlns:mammOntology="http://www.semanticweb.org/marilenatarouse/ontologies/2014/6/mammOntology#"
+     xmlns:category="http://enipedia.tudelft.nl/wiki/Category:"
+     xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
+     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:Birds="http://www.semanticweb.org/ontologies/Birds.owl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:ns29="http://www.kjetil.kjernsmo.net/foaf#"
+     xmlns:gencom="http://rdf.biosemantics.org/ontologies/genomecomponents#"
+     xmlns:ns25="http://www.cs.umd.edu/~hendler/2003/foaf.rdf#"
+     xmlns:ns26="http://www.dajobe.org/foaf.rdf#"
+     xmlns:query="http://swrl.stanford.edu/ontologies/built-ins/3.3/query.owl#"
+     xmlns:ns27="http://www.isi.edu/~gil/foaf.rdf#"
+     xmlns:ns28="http://www.ivan-herman.net/foaf.rdf#"
+     xmlns:ns21="http://teole.jfouffa.org/People/Teole/card.rdf#"
+     xmlns:vu="http://vulneranet.org/vulneranet.owl#"
+     xmlns:ns22="http://users.ecs.soton.ac.uk/mc/mcfoaf.rdf#"
+     xmlns:ns23="http://www.aaronsw.com/about.xrdf#"
+     xmlns:ns24="http://www.cambridgesemantics.com/people/about/"
+     xmlns:abox="http://swrl.stanford.edu/ontologies/built-ins/3.3/abox.owl#"
+     xmlns:ns20="http://www.mellon.org/about_foundation/staff/program-area-staff/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:gi2mo="http://www.gi2mo.org/0.4/ns.owl"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:dbpedia="http://dbpedia.org/resource/"
+     xmlns:wiki="http://enipedia.tudelft.nl/wiki/"
+     xmlns:ds="http://data.montgomerycountymd.gov/resource/_4mse-ku6q/"
+     xmlns:ns38="http://www.w3.org/data#"
+     xmlns:ns36="http://www.w3.org/People/Berners-Lee/card#"
+     xmlns:ns34="http://www.w3.org/People/djweitzner/foaf#"
+     xmlns:ns9="http://my.opera.com/chaals/xml/foaf#"
+     xmlns:ns35="http://www.w3.org/People/karl/karl-foaf.xrdf#"
+     xmlns:ns32="http://www.w3.org/People/EM/contact#"
+     xmlns:ns33="http://www.w3.org/People/Jacobs/contact.rdf#"
+     xmlns:ns30="http://www.lassila.org/ora.rdf#"
+     xmlns:ns5="http://dig.csail.mit.edu/2008/webdav/timbl/foaf.rdf#"
+     xmlns:RoyalHouseOfDenmark="http://www.semanticweb.org/robering/ontologies/2015/8/RoyalHouseOfDenmark#"
+     xmlns:degrees="http://purl.org/ontology/bibo/degrees/"
+     xmlns:ns6="http://eikeon.com/foaf.rdf#"
+     xmlns:ns31="http://www.w3.org/People/Connolly/#"
+     xmlns:ns7="http://hometown.aol.com/chbussler/foaf/chbussler.foaf#"
+     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+     xmlns:ns8="http://inamidst.com/sbp/foaf#"
+     xmlns:ns2="http://bblfish.net/people/henry/card#"
+     xmlns:ns1="http://tellmefirst.polito.it/#"
+     xmlns:ns4="http://dig.csail.mit.edu/2007/wiki/people/RobertHoffmann#"
+     xmlns:ns3="http://dig.csail.mit.edu/2007/wiki/people/JoeLambda#"
+     xmlns:Restaurant="https://schema.org/Restaurant#"
+     xmlns:usps="http://www.w3.org/2000/10/swap/pim/usps#"
+     xmlns:entry="http://ontology.thomsonreuters.com/legal/us/JudicialMatter/entry#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:temporal="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:tbox="http://swrl.stanford.edu/ontologies/built-ins/3.3/tbox.owl#"
+     xmlns:dsbase="http://data.montgomerycountymd.gov/resource/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:socrata="http://www.socrata.com/rdf/terms#">
+    <owl:Ontology rdf:about="https://schema.org/Restaurant">
+        <rdfs:comment>A restaurant ontology that describes local restaurants.</rdfs:comment>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://schema.org/hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/hasLocation">
+        <rdfs:range rdf:resource="https://schema.org/Location"/>
+        <rdfs:domain rdf:resource="https://schema.org/Organization"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://schema.org/isCuisineOf -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/isCuisineOf">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <rdfs:domain rdf:resource="https://schema.org/FoodEstablishment"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://schema.org/isLocationOf -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/isLocationOf">
+        <rdfs:range rdf:resource="https://schema.org/Location"/>
+        <rdfs:domain rdf:resource="https://schema.org/Organization"/>
+        <owl:inverseOf rdf:resource="https://schema.org/hasLocation"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://schema.org/Restaurant#servesCuisine -->
+
+    <owl:ObjectProperty rdf:about="https://schema.org/Restaurant#servesCuisine">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+        <rdfs:domain rdf:resource="https://schema.org/FoodEstablishment"/>
+        <owl:inverseOf rdf:resource="https://schema.org/isCuisineOf"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://schema.org/address -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/address">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://schema.org/hasPriceRange -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/hasPriceRange">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment>Yelp price rating values:
+1= under $10
+2= $11-$30
+3= $31-$60
+4= above $61</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://schema.org/hasRating -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment>New data property that describes the rating of the restaurant.</rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://schema.org/menu -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/menu"/>
+
+
+
+    <!-- https://schema.org/openingHours -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/openingHours">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://schema.org/telephone -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/telephone">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://schema.org/url -->
+
+    <owl:DatatypeProperty rdf:about="https://schema.org/url"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/restaurant.owl#Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/restaurant.owl#Cuisine">
+        <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/AverageRatedRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/AverageRatedRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasRating"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasRating"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/CharlotteArea -->
+
+    <owl:Class rdf:about="https://schema.org/CharlotteArea">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://schema.org/hasLocation"/>
+                <owl:hasValue rdf:resource="https://schema.org/CharlotteArea"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Location"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/FoodEstablishment -->
+
+    <owl:Class rdf:about="https://schema.org/FoodEstablishment">
+        <rdfs:subClassOf rdf:resource="https://schema.org/LocalBusiness"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/HighPriceRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/HighPriceRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasPriceRange"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/HighRatedRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/HighRatedRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasRating"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/LocalBusiness -->
+
+    <owl:Class rdf:about="https://schema.org/LocalBusiness">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/Location -->
+
+    <owl:Class rdf:about="https://schema.org/Location">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/LouisvilleArea -->
+
+    <owl:Class rdf:about="https://schema.org/LouisvilleArea">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://schema.org/hasLocation"/>
+                <owl:hasValue rdf:resource="https://schema.org/LouisvilleArea"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Location"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/LowPriceRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/LowPriceRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasPriceRange"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/LowRatedRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/LowRatedRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasRating"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/MidPriceRestaurant -->
+
+    <owl:Class rdf:about="https://schema.org/MidPriceRestaurant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://schema.org/Restaurant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasPriceRange"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://schema.org/hasPriceRange"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- https://schema.org/Organization -->
+
+    <owl:Class rdf:about="https://schema.org/Organization"/>
+
+
+
+    <!-- https://schema.org/Place -->
+
+    <owl:Class rdf:about="https://schema.org/Place"/>
+
+
+
+    <!-- https://schema.org/Restaurant -->
+
+    <owl:Class rdf:about="https://schema.org/Restaurant">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://schema.org/hasLocation"/>
+                <owl:someValuesFrom rdf:resource="https://schema.org/Location"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://schema.org/Restaurant#servesCuisine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://schema.org/FoodEstablishment"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.yelp.com/biz/basil-thai-cuisine-charlotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/basil-thai-cuisine-charlotte">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Basil_Thai"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/butchertown-grocery-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/butchertown-grocery-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Butchertown_Grocery"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/cantina-1511-charlotte-5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/cantina-1511-charlotte-5">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Cantina1511"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/duckworths-grill-and-taphouse-charlotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/duckworths-grill-and-taphouse-charlotte">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Duckworths"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/el-camino-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/el-camino-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/El_Camino"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/good-food-on-montford-charlotte-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/good-food-on-montford-charlotte-2">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Good_Food_On_Montford"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/havana-rumba-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/havana-rumba-louisville"/>
+
+
+
+    <!-- http://www.yelp.com/biz/heart-and-soy-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/heart-and-soy-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Roots_and_Heart_&amp;_Soy"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/highland-morning-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/highland-morning-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Highland_Morning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/kashmir-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/kashmir-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Kashmir_Indian"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/mayan-cafe-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/mayan-cafe-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Mayan_Cafe"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/mayan-cafe-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/north-end-cafe-louisville-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/north-end-cafe-louisville-2">
+        <owl:sameAs rdf:resource="https://schema.org/North_End_Cafe"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/simply-thai-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/simply-thai-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/www.schema.org/restaurant#Simply_Thai"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/south-21-drive-in-charlotte-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/south-21-drive-in-charlotte-2">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#South21"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/the-blue-taj-charlotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/the-blue-taj-charlotte">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#The_Blue_Taj"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/the-flying-biscuit-cafe-charlotte-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/the-flying-biscuit-cafe-charlotte-2">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Flying_Biscuit_Cafe"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/the-irish-rover-louisville -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/the-irish-rover-louisville">
+        <owl:sameAs rdf:resource="https://schema.org/Irish_Rover"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/yama-asian-fusion-charlotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/yama-asian-fusion-charlotte">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Yama_Asian_Fusion"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/brio-tuscan-grille-charlotte?osq=Brio+Tuscan+Grille -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/brio-tuscan-grille-charlotte?osq=Brio+Tuscan+Grille">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Brio"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.yelp.com/biz/fuel-pizza-cafe-charlotte-6?osq=Fuel+Pizza+Cafe -->
+
+    <owl:NamedIndividual rdf:about="http://www.yelp.com/biz/fuel-pizza-cafe-charlotte-6?osq=Fuel+Pizza+Cafe">
+        <owl:sameAs rdf:resource="https://schema.org/Restaurant#Fuel_Pizza"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/American -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/American">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Asian -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Asian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Breakfast -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Breakfast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Butchertown_Grocery -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Butchertown_Grocery">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
+        <schema:address>1076 East Washington Street
+Louisville, KY 40206</schema:address>
+        <schema:url>http://butchertowngrocery.com/</schema:url>
+        <schema:telephone>502.742.8315</schema:telephone>
+        <schema:menu>http://butchertowngrocery.com/</schema:menu>
+        <servesCuisine rdf:resource="https://schema.org/American"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/butchertown-grocery-downtown"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/CharlotteArea -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/CharlotteArea">
+        <rdf:type rdf:resource="https://schema.org/Location"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/El_Camino -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/El_Camino">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</schema:hasRating>
+        <schema:menu>http://elfreakingcamino.com/menus/</schema:menu>
+        <schema:address>1314 Bardstown Road â€¢ Louisville, Kentucky 40204</schema:address>
+        <schema:url>http://elfreakingcamino.com/</schema:url>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Mexican"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/el-camino-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Havana_Rumba -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Havana_Rumba">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</schema:hasRating>
+        <schema:address>2210 Bardstown Road
+Louisville, KY 40205</schema:address>
+        <schema:url>http://havanarumbaonline.com/web/index_zb.php?pg=Our%20Story&amp;for=text&amp;user=HAVRUM</schema:url>
+        <schema:menu>http://havanarumbaonline.com/web/index_zb.php?pg=Main%20Menu&amp;for=text&amp;user=HAVRUM</schema:menu>
+        <schema:telephone>502-749-4600</schema:telephone>
+        <servesCuisine rdf:resource="https://schema.org/Latin_American_Or_Cuban"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <owl:sameAs rdf:resource="https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Highland_Morning -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Highland_Morning">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</schema:hasRating>
+        <schema:address>1416 Bardstown Rd
+Louisville, KY 40204</schema:address>
+        <schema:menu>http://www.highlandmorning.com/</schema:menu>
+        <schema:url>www.highlandmorning.com</schema:url>
+        <servesCuisine rdf:resource="https://schema.org/Breakfast"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/highland-morning-the-highlands-bardstown-rd"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Indian -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Indian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Irish_Rover -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Irish_Rover">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
+        <schema:menu>http://www.theirishroverky.com/our-menu/</schema:menu>
+        <schema:url>http://www.theirishroverky.com/</schema:url>
+        <schema:address>2319 Frankfort Ave
+Louisville, KY 40206</schema:address>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Pub_Fare"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/irish-rover-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Kashmir_Indian -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Kashmir_Indian">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</schema:hasRating>
+        <schema:menu>http://www.allmenus.com/ky/louisville/4344-kashmir/menu/</schema:menu>
+        <schema:menu>https://www.facebook.com/pages/Kashmir-Indian-Restaurant/104946859548552</schema:menu>
+        <schema:address>1277 Bardstown Rd
+Louisville, KY 40204</schema:address>
+        <servesCuisine rdf:resource="https://schema.org/Indian"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/kashmir-indian-restaurant-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Latin_American_Or_Cuban -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Latin_American_Or_Cuban">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/LouisvilleArea -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/LouisvilleArea">
+        <rdf:type rdf:resource="https://schema.org/Location"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Mayan_Cafe -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Mayan_Cafe">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</schema:hasRating>
+        <schema:menu>http://themayancafe.com/menu/</schema:menu>
+        <schema:url>http://themayancafe.com/</schema:url>
+        <schema:address>813 E Market St
+Louisville, KY 40206</schema:address>
+        <servesCuisine rdf:resource="https://schema.org/Latin_American_Or_Cuban"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Mexican"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Mexican -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Mexican">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/North_End_Cafe -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/North_End_Cafe">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</schema:hasRating>
+        <schema:address>2116 Bardstown Rd
+Louisville, KY 40205</schema:address>
+        <schema:menu>http://www.northendcafe.com/menu/</schema:menu>
+        <schema:url>http://www.northendcafe.com/</schema:url>
+        <servesCuisine rdf:resource="https://schema.org/American"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/north-end-cafe-the-highlands-bardstown-rd"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Pub_Fare -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Pub_Fare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Sushi -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Sushi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Vegan_or_Vegetarian -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Vegan_or_Vegetarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Basil_Thai -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Basil_Thai">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:url>http://www.eatatbasil.com/charlotte/</schema:url>
+        <schema:menu>http://www.eatatbasil.com/charlotte/</schema:menu>
+        <schema:address>210 N Church Street, Charlotte, NC 28202</schema:address>
+        <servesCuisine rdf:resource="https://schema.org/Asian"/>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Thai"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/basil-fourth-ward"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Brio -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Brio">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:menu>http://brioitalian.com/menu.html</schema:menu>
+        <schema:address>4720 Piedmont Row Drive, Charlotte, NC 28210</schema:address>
+        <schema:url>http://brioitalian.com/index.html</schema:url>
+        <servesCuisine rdf:resource="https://schema.org/American"/>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Pizza_Italian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/brio-barclay-downs"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Cantina1511 -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Cantina1511">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</schema:hasRating>
+        <schema:address>4721 Park Road Suite B, Charlotte, NC 28209</schema:address>
+        <schema:url>http://cantina15eleven.com/</schema:url>
+        <schema:menu>http://cantina15eleven.com/menu/</schema:menu>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Latin_American_Or_Cuban"/>
+        <servesCuisine rdf:resource="https://schema.org/Mexican"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/cantina-1511-collingwood"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Duckworths -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Duckworths">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:address>4435 Park Road, NC 28209</schema:address>
+        <schema:menu>http://duckworths.com/menu/</schema:menu>
+        <schema:url>http://duckworths.com/</schema:url>
+        <servesCuisine rdf:resource="https://schema.org/American"/>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Pub_Fare"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/duckworths-grill-taphouse-myers-park"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Flying_Biscuit_Cafe -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Flying_Biscuit_Cafe">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:address>4241 Park Road, Charlotte, NC 28209</schema:address>
+        <schema:url>http://www.flyingbiscuit.com/</schema:url>
+        <schema:menu>http://www.flyingbiscuit.com/food-menu/breakfast-all-day/</schema:menu>
+        <servesCuisine rdf:resource="https://schema.org/Breakfast"/>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/the-flying-biscuit-cafe-collingwood"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Fuel_Pizza -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Fuel_Pizza">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</schema:hasRating>
+        <schema:menu>http://www.fuelpizza.com/menu</schema:menu>
+        <schema:url>http://www.fuelpizza.com/</schema:url>
+        <schema:address>Park Road Shopping Center, 4267 Park Road, Charlotte, NC 28209</schema:address>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Pizza_Italian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/fuel-pizza-collingwood"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Good_Food_On_Montford -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Good_Food_On_Montford">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:url>http://goodfoodonmontford.com/</schema:url>
+        <schema:menu>http://goodfoodonmontford.com/food-wine/dinner</schema:menu>
+        <schema:address>1701 Montford Dr, Charlotte, NC 28209</schema:address>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <servesCuisine rdf:resource="https://schema.org/Seafood"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Pizza_Italian -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Pizza_Italian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Seafood -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Seafood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#South21 -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#South21">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:url>http://www.south21jr.com/index.html</schema:url>
+        <schema:address>3101 E Independence Boulevard, NC 28205</schema:address>
+        <schema:menu>http://www.south21jr.com/menu.html</schema:menu>
+        <servesCuisine rdf:resource="https://schema.org/American"/>
+        <servesCuisine rdf:resource="https://schema.org/Pub_Fare"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/south-21-drive-in-plaza-midwood"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Thai -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#The_Blue_Taj -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#The_Blue_Taj">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:url>http://www.thebluetaj.com/</schema:url>
+        <schema:menu>http://www.thebluetaj.com/Menu.pdf</schema:menu>
+        <schema:address>Ballantyne Village, 14815 Ballantyne Village Way Suite 140, Charlotte, NC 28277</schema:address>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Indian"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/blue-taj-ballantyne"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Restaurant#Yama_Asian_Fusion -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Yama_Asian_Fusion">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:address>720 Governor Morrison Street Suite 130, Charlotte, NC 28211</schema:address>
+        <schema:url>http://www.yamaasianfusion.com/</schema:url>
+        <schema:menu>http://www.yamaasianfusion.com/index.php/menu</schema:menu>
+        <servesCuisine rdf:resource="https://schema.org/Asian"/>
+        <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Sushi"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/yama-asian-fusion-southpark"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/Roots_and_Heart_&amp;_Soy -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/Roots_and_Heart_&amp;_Soy">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
+        <schema:menu>http://www.heartandsoy.net/heart-and-soy-menu.php</schema:menu>
+        <schema:url>http://www.heartandsoy.net/</schema:url>
+        <schema:address>1216 Bardstown Road Louisville, KY 40204</schema:address>
+        <servesCuisine rdf:resource="https://schema.org/Asian"/>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/heart-soy-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://schema.org/www.schema.org/restaurant#Simply_Thai -->
+
+    <owl:NamedIndividual rdf:about="https://schema.org/www.schema.org/restaurant#Simply_Thai">
+        <rdf:type rdf:resource="https://schema.org/Restaurant"/>
+        <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
+        <schema:menu>http://simplythaiky.com/?page_id=705</schema:menu>
+        <schema:url>www.simplythaiky.com</schema:url>
+        <schema:address>323 Wallace Ave
+Louisville, KY 40207</schema:address>
+        <schema:telephone>502-899-9670</schema:telephone>
+        <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
+        <servesCuisine rdf:resource="https://schema.org/Sushi"/>
+        <servesCuisine rdf:resource="https://schema.org/Thai"/>
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/simply-thai-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html -->
+
+    <owl:NamedIndividual rdf:about="https://www.tripadvisor.com/Restaurant_Review-g39604-d4494002-Reviews-Havana_Rumba-Louisville_Kentucky.html">
+        <owl:sameAs rdf:resource="https://www.zomato.com/louisville/havana-rumba-express-tapas-bar-louisville"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- https://www.zomato.com/charlotte/basil-fourth-ward -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/basil-fourth-ward"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/blue-taj-ballantyne -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/blue-taj-ballantyne"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/brio-barclay-downs -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/brio-barclay-downs"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/cantina-1511-collingwood -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/cantina-1511-collingwood"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/duckworths-grill-taphouse-myers-park -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/duckworths-grill-taphouse-myers-park"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/fuel-pizza-collingwood -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/fuel-pizza-collingwood"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/south-21-drive-in-plaza-midwood -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/south-21-drive-in-plaza-midwood"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/the-flying-biscuit-cafe-collingwood -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/the-flying-biscuit-cafe-collingwood"/>
+
+
+
+    <!-- https://www.zomato.com/charlotte/yama-asian-fusion-southpark -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/charlotte/yama-asian-fusion-southpark"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/butchertown-grocery-downtown -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/butchertown-grocery-downtown"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/el-camino-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/el-camino-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/havana-rumba-express-tapas-bar-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/havana-rumba-express-tapas-bar-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/heart-soy-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/heart-soy-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/highland-morning-the-highlands-bardstown-rd -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/highland-morning-the-highlands-bardstown-rd"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/irish-rover-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/irish-rover-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/kashmir-indian-restaurant-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/kashmir-indian-restaurant-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/mayan-cafe-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/mayan-cafe-louisville"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/north-end-cafe-the-highlands-bardstown-rd -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/north-end-cafe-the-highlands-bardstown-rd"/>
+
+
+
+    <!-- https://www.zomato.com/louisville/simply-thai-louisville -->
+
+    <owl:NamedIndividual rdf:about="https://www.zomato.com/louisville/simply-thai-louisville"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://schema.org/HighPriceRestaurant"/>
+            <rdf:Description rdf:about="https://schema.org/LowPriceRestaurant"/>
+            <rdf:Description rdf:about="https://schema.org/MidPriceRestaurant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://schema.org/AverageRatedRestaurant"/>
+            <rdf:Description rdf:about="https://schema.org/HighRatedRestaurant"/>
+            <rdf:Description rdf:about="https://schema.org/LowRatedRestaurant"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.5-SNAPSHOT) http://owlapi.sourceforge.net -->
