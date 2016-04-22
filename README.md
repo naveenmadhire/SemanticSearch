@@ -15,6 +15,6 @@ JSP
 
 ####Screenshot of the Semantic Web website
 
-![alt tag]()
+![alt tag](https://github.com/naveenmadhire/SemanticSearch/tree/master/src/main/resources/Images/Initial.png)
 
-![alt tag]()
+![alt tag](https://github.com/naveenmadhire/SemanticSearch/tree/master/src/main/resources/Images/search.png)
