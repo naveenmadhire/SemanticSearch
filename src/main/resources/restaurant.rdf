@@ -915,13 +915,13 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Basil_Thai">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
         <schema:url>http://www.eatatbasil.com/charlotte/</schema:url>
         <schema:menu>http://www.eatatbasil.com/charlotte/</schema:menu>
         <schema:address>210 N Church Street, Charlotte, NC 28202</schema:address>
         <servesCuisine rdf:resource="https://schema.org/Asian"/>
         <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
-        <servesCuisine rdf:resource="https://schema.org/Thai"/>
+        <servesCuisine rdf:resource="https://schema.org/Restaurant#Thai"/>
         <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/basil-fourth-ward"/>
     </owl:NamedIndividual>
 
@@ -932,7 +932,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Brio">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
         <schema:menu>http://brioitalian.com/menu.html</schema:menu>
         <schema:address>4720 Piedmont Row Drive, Charlotte, NC 28210</schema:address>
         <schema:url>http://brioitalian.com/index.html</schema:url>
@@ -966,7 +966,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Duckworths">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.0</schema:hasRating>
         <schema:address>4435 Park Road, NC 28209</schema:address>
         <schema:menu>http://duckworths.com/menu/</schema:menu>
         <schema:url>http://duckworths.com/</schema:url>
@@ -983,7 +983,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Flying_Biscuit_Cafe">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.0</schema:hasRating>
         <schema:address>4241 Park Road, Charlotte, NC 28209</schema:address>
         <schema:url>http://www.flyingbiscuit.com/</schema:url>
         <schema:menu>http://www.flyingbiscuit.com/food-menu/breakfast-all-day/</schema:menu>
@@ -1016,13 +1016,13 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Good_Food_On_Montford">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.0</schema:hasRating>
         <schema:url>http://goodfoodonmontford.com/</schema:url>
         <schema:menu>http://goodfoodonmontford.com/food-wine/dinner</schema:menu>
         <schema:address>1701 Montford Dr, Charlotte, NC 28209</schema:address>
         <schema:hasLocation rdf:resource="https://schema.org/CharlotteArea"/>
         <servesCuisine rdf:resource="https://schema.org/Vegan_or_Vegetarian"/>
-        <servesCuisine rdf:resource="https://schema.org/Seafood"/>
+        <servesCuisine rdf:resource="https://schema.org/Restaurant#Seafood"/>
         <owl:sameAs rdf:resource="https://www.zomato.com/charlotte/good-food-on-montford-barclay-downs"/>
     </owl:NamedIndividual>
 
@@ -1038,7 +1038,7 @@ Louisville, KY 40205</schema:address>
 
     <!-- https://schema.org/Restaurant#Seafood -->
 
-    <owl:NamedIndividual rdf:about="https://schema.org/Seafood">
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Seafood">
         <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
     </owl:NamedIndividual>
 
@@ -1049,7 +1049,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#South21">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</schema:hasRating>
         <schema:url>http://www.south21jr.com/index.html</schema:url>
         <schema:address>3101 E Independence Boulevard, NC 28205</schema:address>
         <schema:menu>http://www.south21jr.com/menu.html</schema:menu>
@@ -1062,7 +1062,7 @@ Louisville, KY 40205</schema:address>
 
     <!-- https://schema.org/Restaurant#Thai -->
 
-    <owl:NamedIndividual rdf:about="https://schema.org/Thai">
+    <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Thai">
         <rdf:type rdf:resource="http://www.semanticweb.org/restaurant.owl#Cuisine"/>
     </owl:NamedIndividual>
 
@@ -1073,7 +1073,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#The_Blue_Taj">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.0</schema:hasRating>
         <schema:url>http://www.thebluetaj.com/</schema:url>
         <schema:menu>http://www.thebluetaj.com/Menu.pdf</schema:menu>
         <schema:address>Ballantyne Village, 14815 Ballantyne Village Way Suite 140, Charlotte, NC 28277</schema:address>
@@ -1090,7 +1090,7 @@ Louisville, KY 40205</schema:address>
     <owl:NamedIndividual rdf:about="https://schema.org/Restaurant#Yama_Asian_Fusion">
         <rdf:type rdf:resource="https://schema.org/Restaurant"/>
         <schema:hasPriceRange rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</schema:hasPriceRange>
-        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:hasRating>
+        <schema:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.0</schema:hasRating>
         <schema:address>720 Governor Morrison Street Suite 130, Charlotte, NC 28211</schema:address>
         <schema:url>http://www.yamaasianfusion.com/</schema:url>
         <schema:menu>http://www.yamaasianfusion.com/index.php/menu</schema:menu>
@@ -1132,7 +1132,7 @@ Louisville, KY 40207</schema:address>
         <schema:telephone>502-899-9670</schema:telephone>
         <schema:hasLocation rdf:resource="https://schema.org/LouisvilleArea"/>
         <servesCuisine rdf:resource="https://schema.org/Sushi"/>
-        <servesCuisine rdf:resource="https://schema.org/Thai"/>
+        <servesCuisine rdf:resource="https://schema.org/Restaurant#Thai"/>
         <owl:sameAs rdf:resource="https://www.zomato.com/louisville/simply-thai-louisville"/>
     </owl:NamedIndividual>
 

@@ -23,6 +23,9 @@ public class SearchServlet extends HttpServlet {
                           HttpServletResponse response) throws ServletException, IOException {
 
         String cuisine = request.getParameter("cuisine");
+
+        int rating = Integer.parseInt(request.getParameter("rating"));
+
         System.out.printf(cuisine);
 
         Model model = ModelFactory.createDefaultModel();
@@ -30,7 +33,7 @@ public class SearchServlet extends HttpServlet {
         //Read the file
         model.read(new RDFReader().read(inputFileName), "");
 
-        //First Query
+        //Fetching the resturants based on Cuisine and rating selected on the search web page
         String queryString = "PREFIX ontlgy: <http://www.semanticweb.org/restaurant.owl#>\n" +
                 "PREFIX rdfsyn: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
                 "\n" +
